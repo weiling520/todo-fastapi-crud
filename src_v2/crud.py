@@ -1,4 +1,3 @@
-# crud.py 伪代码
 # 导入 Session、models里的UserDB、TodoDB
 from sqlalchemy import select, insert, update, delete, func  # SQL描述语句
 from sqlalchemy.orm import Session #内含方法.add/.commit/.refresh/.scalar(查第一个/None)，执行SQL语句，写进数据库
