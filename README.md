@@ -45,15 +45,20 @@
 └── main.py               # 项目入口：路由接口、全局异常捕获、接口启动
 
 ## 🚀 本地启动
-1. 📦 新建Python项目并在终端安装依赖
 
+1. 新建Python项目并在终端安装依赖
+```
 pip install -r requirements.txt
+```
 2. 新建名为.env文件，填入自己的MySQL连接信息
-
+```
 DATABASE_URL=mysql+pymysql://root:你的密码@127.0.0.1:3306/todo_db
-3. 在终端启动项目
-
+```
+3. 终端启动项目
+```
 uvicorn src_v2.main:app --reload
-4. 启动成功后访问接口文档：
-
+```
+4. 启动成功后访问接口文档
+```
 http://127.0.0.1:8000/docs
+```
