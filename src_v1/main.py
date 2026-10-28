@@ -1,5 +1,4 @@
 #接收参数、参数校验、调用 crud 函数、包装返回结果
-# src_v1/main.py
 from fastapi import FastAPI, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 from src_v1.db import engine, Base, get_db
