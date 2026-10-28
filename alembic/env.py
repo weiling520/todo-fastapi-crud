@@ -25,7 +25,7 @@ if config.config_file_name is not None:
 # for 'autogenerate' support
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
-from src_v2.models import Base #导入表模型
+from src_v2.models import Base  #导入表模型
 target_metadata = Base.metadata
 
 
